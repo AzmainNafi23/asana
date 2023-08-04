@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+   max-width: 100%;
+   display: block;
+   height: auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+.header-section{
+               background-color: transparent;
+               position: absolute;
+               width:100%;
+               top:0;
+               left:0;
+               padding: 17px 0;
+
+
+}
+
+.container{
+          margin:auto;
+          width: 85%;
+}
+
+.navigation{
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+}
+.logo{
+     width:15%;
+}
+.menu{
+     width:80%;
+}
+
+.menu ul{
+        display: flex;
+        list-style: none;
+        justify-content: flex-end;
+}
+
+.menu ul a{
+          color: #fff;
+          font-size: 14px;
+          text-transform: capitalize;
+          padding: 0 18px;
+}
+
+/* Banner */
+
+.banner-section{
+       background: url('../images/model.jpg');
+       background-size: cover;
+       background-position: center;
+       padding:20px 0;
+}
+
+.banner-top{
+           padding: 70px 0;
+           width:30%;
+           line-height: 38px;
+           padding: 160px 0 80px;
+
+}
+.banner-top h1{
+              color:#fff;
+              font-weight: 600;
+              font-size: 40px;
+              margin-bottom: 40px;
+
+}
+
+.banner-top h1::before{
+                      content:'';
+                      display: block;
+                      width:50px;
+                      height:2px;
+                      background: #E43C58;
+                      transform: translateY(-12px);
+}
+.banner-top a{
+             color:#fff;
+             border:2px solid #E43C58;
+             padding: 9px 25px;
+}
+
+.banner-bottom{
+              color:#fff;
+              display: flex;
+              justify-content: space-between;
+
+}
+
+.service-1{
+          width:32%;
+          background-color: #D83953;
+          padding:60px 15px;
+}
+
+.service-1 span{
+               font-size: 20px;
+
+}
+
+.service-1 h3{
+             margin: 20px 0;
+             font-weight: 600;
+
+}
+
+.service-1 h3::after{
+                    content:'';
+                    display: block;
+                    width: 40px;
+                    height: 2px;
+                    background: #fff;
+
+
+}
+
+.service-1 p{
+            font-size:
+}
+
+.service-2{
+          width:32%;
+          padding:60px 15px;
+          background: #1B1B1B;
+          position: relative;
+
+}
+
+.service-2::after{
+                 content: '';
+                 display: block;
+                 width:2px;
+                 height:15px;
+                 background-color: #D83953;
+                 position: absolute;
+                 top:100%;
+                 left:50%;
+                 transform: translateX(-50%);
+}
+
+.service-2 span{
+               font-size: 20px;
+               color: #D83953;
+
+}
+
+.service-2 h3{
+             margin: 20px 0;
+             font-weight: 600;
+
+}
+
+.service-2 h3::after{
+                    content:'';
+                    display: block;
+                    width: 40px;
+                    height: 2px;
+                    background: #fff;
+
+
+}
+
+.service-2 p{
+            font-size:
+}
+
+.service-3{
+          width:32%;
+          padding:60px 15px;
+          background: #1B1B1B;
+          position: relative;
+
+}
+
+.service-3::before{
+                 content: '';
+                 display: block;
+                 width:13px;
+                 height:45px;
+                 background-color: #D83953;
+                 position: absolute;
+                 bottom:-15px;
+                 left:100%;
+}
+
+.service-3::after{
+                 content: '';
+                 display: block;
+                 width:100%;
+                 height:15px;
+                 background-color: #D83953;
+                 position: absolute;
+                 top:100%;
+                 left:0;
+
+}
+
+.service-3 span{
+               font-size: 20px;
+               color: #D83953;
+
+}
+
+.service-3 h3{
+             margin: 20px 0;
+             font-weight: 600;
+
+}
+
+.service-3 h3::after{
+                    content:'';
+                    display: block;
+                    width: 40px;
+                    height: 2px;
+                    background: #fff;
+
+
+}
+
+.service-3 p{
+            font-size:
+}
